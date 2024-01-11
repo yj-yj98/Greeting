@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="Theme.Greeting" parent="android:Theme.Material.Light.NoActionBar" />
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="base.Theme.Greeting" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:fontFamily">@font/nanumsquareround_r</item>
+    </style>
+     <style name="Theme.Greeting" parent="base.Theme.Greeting" />
 </resources>
